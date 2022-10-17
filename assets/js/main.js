@@ -1,9 +1,3 @@
-/**
-* Template Name: TheEvent - v4.9.1
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
