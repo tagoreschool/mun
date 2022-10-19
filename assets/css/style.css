@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -147,7 +147,7 @@ h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: none;
@@ -239,7 +239,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -505,14 +505,14 @@ h6 {
 
 @media (max-width: 991px) {
   #hero .hero-container {
-    top: 70px;
+    top: 50px;
   }
 }
 
 #hero h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 46px;
   font-weight: 600;
   text-transform: none;
 }
@@ -523,19 +523,19 @@ h6 {
 
 @media (max-width: 991px) {
   #hero h1 {
-    font-size: 34px;
+    font-size: 24px;
   }
 }
 
 #hero p {
   color: #ebebeb;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 991px) {
   #hero p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -611,9 +611,9 @@ h6 {
 }
 
 #hero .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -1527,7 +1527,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1541,7 +1541,7 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #fff;
 }
 
