@@ -524,7 +524,7 @@ progress {
 }
 .initialism {
   font-size: 0.875em;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .blockquote {
   margin-bottom: 1rem;
@@ -7670,11 +7670,11 @@ fieldset:disabled .btn {
 .text-lowercase {
   text-transform: lowercase !important;
 }
-.text-capitalize {
-  text-transform: capitalize !important;
+.text-none {
+  text-transform: none !important;
 }
-.text-capitalize {
-  text-transform: capitalize !important;
+.text-none {
+  text-transform: none !important;
 }
 .text-wrap {
   white-space: normal !important;

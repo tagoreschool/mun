@@ -243,7 +243,7 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  document.getElementById("timer").innerHTML = days + "D " + hours + "H "
+  document.getElementById("timer").innerHTML = "Time Left for Conference: " + days + "D " + hours + "H "
     + minutes + "M " + seconds + "S ";
 
   // If the count down is over, write some text 

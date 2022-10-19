@@ -771,7 +771,7 @@
         const valueType = isElement$1(value) ? 'element' : toType(value);
 
         if (!new RegExp(expectedTypes).test(valueType)) {
-          throw new TypeError(`${this.constructor.NAME.tocapitalize()}: Option "${property}" provided type "${valueType}" but expected type "${expectedTypes}".`);
+          throw new TypeError(`${this.constructor.NAME.tonone()}: Option "${property}" provided type "${valueType}" but expected type "${expectedTypes}".`);
         }
       }
     }
@@ -1820,8 +1820,8 @@
         EventHandler.trigger(this._element, EVENT_SHOWN$6);
       };
 
-      const capitalizedDimension = dimension[0].tocapitalize() + dimension.slice(1);
-      const scrollSize = `scroll${capitalizedDimension}`;
+      const nonedDimension = dimension[0].tonone() + dimension.slice(1);
+      const scrollSize = `scroll${nonedDimension}`;
 
       this._queueCallback(complete, this._element, true);
 
@@ -4012,7 +4012,7 @@
 
       if (typeof config.reference === 'object' && !isElement$1(config.reference) && typeof config.reference.getBoundingClientRect !== 'function') {
         // Popper virtual elements require a getBoundingClientRect method
-        throw new TypeError(`${NAME$a.tocapitalize()}: Option "reference" provided type "object" without a required "getBoundingClientRect" method.`);
+        throw new TypeError(`${NAME$a.tonone()}: Option "reference" provided type "object" without a required "getBoundingClientRect" method.`);
       }
 
       return config;
@@ -5906,7 +5906,7 @@
 
     _createPopper(tip) {
       const placement = typeof this._config.placement === 'function' ? this._config.placement.call(this, tip, this._element) : this._config.placement;
-      const attachment = AttachmentMap[placement.tocapitalize()];
+      const attachment = AttachmentMap[placement.tonone()];
       return createPopper(this._element, tip, this._getPopperConfig(attachment));
     }
 
